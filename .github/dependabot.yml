@@ -6,3 +6,7 @@ updates:
       interval: "weekly"
     labels:
       - "type: task"
+  - package-ecosystem: "gradle" 
+    directory: "/" 
+    schedule:
+      interval: "daily"
