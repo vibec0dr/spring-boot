@@ -21,7 +21,7 @@ jobs:
           java-version: '17'
           distribution: 'liberica'
       - name: Check Out
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Validate Gradle Wrapper
         uses: gradle/actions/wrapper-validation@d9c87d481d55275bb5441eef3fe0e46805f9ef70 #v3.5.0
       - name: Set Up Gradle
